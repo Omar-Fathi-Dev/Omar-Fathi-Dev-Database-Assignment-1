@@ -1,0 +1,19 @@
+
+# diagrams.net backup and temporary files
+*.bkp
+*.dtmp
+
+# Temporary files
+*.tmp
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# IDE files
+.idea/
+.vs/
