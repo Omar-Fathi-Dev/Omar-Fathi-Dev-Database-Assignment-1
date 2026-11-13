@@ -1,4 +1,4 @@
-<mxfile host="Electron" pages="7">
+<mxfile host="Electron" pages="8">
   <diagram name="1-ERD-1-Staff and Training" id="MJjAiPt5iXX3uShAACXw">
     <mxGraphModel dx="2389" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3263,7 +3263,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vSeoewz8GH4rDjVqKq6E" name=" 3-Questions-Assumptions">
-    <mxGraphModel dx="2293" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3347,6 +3347,273 @@
         </mxCell>
         <mxCell id="sYtfzVHAnJTOLgyBfKQ2-27" parent="sYtfzVHAnJTOLgyBfKQ2-26" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;p&gt;&lt;strong&gt;Section 7.7 + Stakeholder Interview Notes&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Section 7.7 states that corporate authorized drivers are only known through their company. However, the stakeholder interview says that some corporate drivers can also be individual customers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Clarification needed:&lt;/strong&gt; Can the same person have both an Authorized Driver record and an Individual Customer record?&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="330" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="35FmEws_kyukb5CqItNx" name="4-Business-Rules">
+    <mxGraphModel dx="1330" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-1" parent="1" style="text;html=1;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;" value="Part D — Business Rules Beyond Constraints" vertex="1">
+          <mxGeometry height="40" width="800" x="540" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-2" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=12;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="800" width="1300" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-3" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="40" width="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-4" parent="3-s9yrkHhiha-HiUuJcj-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#1f4e79;fontColor=#ffffff;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;" value="SRS Section" vertex="1">
+          <mxGeometry height="40" width="100" as="geometry">
+            <mxRectangle height="40" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-5" parent="3-s9yrkHhiha-HiUuJcj-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#1f4e79;fontColor=#ffffff;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;" value="Business Rule" vertex="1">
+          <mxGeometry height="40" width="350" x="100" as="geometry">
+            <mxRectangle height="40" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-6" parent="3-s9yrkHhiha-HiUuJcj-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#1f4e79;fontColor=#ffffff;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;" value="Why Constraints Are Not Enough" vertex="1">
+          <mxGeometry height="40" width="500" x="450" as="geometry">
+            <mxRectangle height="40" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-7" parent="3-s9yrkHhiha-HiUuJcj-3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#1f4e79;fontColor=#ffffff;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;" value="How to Enforce" vertex="1">
+          <mxGeometry height="40" width="350" x="950" as="geometry">
+            <mxRectangle height="40" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-8" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-9" parent="3-s9yrkHhiha-HiUuJcj-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.1" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-10" parent="3-s9yrkHhiha-HiUuJcj-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Every branch must always have exactly one manager." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-11" parent="3-s9yrkHhiha-HiUuJcj-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Manager replacement must be handled without leaving a branch temporarily without a manager." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-12" parent="3-s9yrkHhiha-HiUuJcj-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Transactional application logic or database trigger." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-13" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-14" parent="3-s9yrkHhiha-HiUuJcj-13" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#dae8fc;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.1" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-15" parent="3-s9yrkHhiha-HiUuJcj-13" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="An employee cannot be both a Rental Agent and a Mechanic." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-16" parent="3-s9yrkHhiha-HiUuJcj-13" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Separate subtype tables do not automatically prevent the same employee from appearing in both." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-17" parent="3-s9yrkHhiha-HiUuJcj-13" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Database trigger or application validation." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-18" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-19" parent="3-s9yrkHhiha-HiUuJcj-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#d5e8d4;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.2" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-20" parent="3-s9yrkHhiha-HiUuJcj-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Every training attempt must be retained, including failed and repeated attempts." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-21" parent="3-s9yrkHhiha-HiUuJcj-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Basic constraints do not prevent existing attempts from being overwritten or deleted." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-22" parent="3-s9yrkHhiha-HiUuJcj-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Database permissions, triggers, and application logic." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-23" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-24" parent="3-s9yrkHhiha-HiUuJcj-23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.3" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-25" parent="3-s9yrkHhiha-HiUuJcj-23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Historical category rates must never be overwritten." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-26" parent="3-s9yrkHhiha-HiUuJcj-23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Basic constraints cannot prevent updates or deletion of historical rates." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-27" parent="3-s9yrkHhiha-HiUuJcj-23" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Database permissions or triggers; insert new rate records instead." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-28" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-29" parent="3-s9yrkHhiha-HiUuJcj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#fff2cc;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.3" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-30" parent="3-s9yrkHhiha-HiUuJcj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Every vehicle status change must record who made it and when." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-31" parent="3-s9yrkHhiha-HiUuJcj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Constraints cannot guarantee that every status update creates an audit record." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-32" parent="3-s9yrkHhiha-HiUuJcj-28" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Database trigger or transactional application logic." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-33" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-34" parent="3-s9yrkHhiha-HiUuJcj-33" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#e1d5e7;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.4, 7.13" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-35" parent="3-s9yrkHhiha-HiUuJcj-33" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="The extra and insurance prices charged on a rental must be preserved at the time of rental." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-36" parent="3-s9yrkHhiha-HiUuJcj-33" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Constraints cannot automatically capture the current price when a rental package or extra is added." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-37" parent="3-s9yrkHhiha-HiUuJcj-33" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Application logic to store a price snapshot." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-38" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-39" parent="3-s9yrkHhiha-HiUuJcj-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f8cecc;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.7" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-40" parent="3-s9yrkHhiha-HiUuJcj-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="A blacklisted customer cannot make new bookings." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-41" parent="3-s9yrkHhiha-HiUuJcj-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="A normal constraint cannot validate the customer&#39;s current blacklist status when a new reservation is created." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-42" parent="3-s9yrkHhiha-HiUuJcj-38" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Application logic or database trigger." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-43" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-44" parent="3-s9yrkHhiha-HiUuJcj-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffe6cc;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.9" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-45" parent="3-s9yrkHhiha-HiUuJcj-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="A promo code cannot be used more than its maximum allowed uses." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-46" parent="3-s9yrkHhiha-HiUuJcj-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="CHECK constraints cannot enforce a limit based on the count of related reservations." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-47" parent="3-s9yrkHhiha-HiUuJcj-43" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Transactional application logic or stored procedure." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-48" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-49" parent="3-s9yrkHhiha-HiUuJcj-48" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#f5f5f5;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.10" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-50" parent="3-s9yrkHhiha-HiUuJcj-48" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Every loyalty point movement must be retained separately." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-51" parent="3-s9yrkHhiha-HiUuJcj-48" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Basic constraints do not prevent point movement records from being overwritten or deleted." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-52" parent="3-s9yrkHhiha-HiUuJcj-48" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Database permissions, triggers, and application logic." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-53" parent="3-s9yrkHhiha-HiUuJcj-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" value="" vertex="1">
+          <mxGeometry height="76" width="1300" y="724" as="geometry" />
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-54" parent="3-s9yrkHhiha-HiUuJcj-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#b0e3e6;fontStyle=1;overflow=hidden;strokeColor=#6c8ebf;align=center;" value="7.15" vertex="1">
+          <mxGeometry height="76" width="100" as="geometry">
+            <mxRectangle height="76" width="100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-55" parent="3-s9yrkHhiha-HiUuJcj-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="The unit cost of each part used in a job must be preserved at the time of use." vertex="1">
+          <mxGeometry height="76" width="350" x="100" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-56" parent="3-s9yrkHhiha-HiUuJcj-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="A foreign key to the current part price cannot preserve its historical value." vertex="1">
+          <mxGeometry height="76" width="500" x="450" as="geometry">
+            <mxRectangle height="76" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-s9yrkHhiha-HiUuJcj-57" parent="3-s9yrkHhiha-HiUuJcj-53" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#ffffff;overflow=hidden;strokeColor=#6c8ebf;align=left;spacing=6;" value="Application logic to store a unit-cost snapshot." vertex="1">
+          <mxGeometry height="76" width="350" x="950" as="geometry">
+            <mxRectangle height="76" width="350" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
