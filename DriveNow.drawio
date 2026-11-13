@@ -1,4 +1,4 @@
-<mxfile host="Electron" pages="6">
+<mxfile host="Electron" pages="7">
   <diagram name="1-ERD-1-Staff and Training" id="MJjAiPt5iXX3uShAACXw">
     <mxGraphModel dx="2389" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3258,6 +3258,95 @@
         </mxCell>
         <mxCell id="3hUsPha2M4OGS0Oo94Sq-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" value="PartNo&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="100" x="480" y="1765" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vSeoewz8GH4rDjVqKq6E" name=" 3-Questions-Assumptions">
+    <mxGraphModel dx="2293" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-1" parent="1" style="text;html=1;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;" value="Part C — Questions, Assumptions &amp; Contradictions" vertex="1">
+          <mxGeometry height="40" width="800" x="620" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-2" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.1 — Branches and Staff" vertex="1">
+          <mxGeometry height="160" width="330" x="370" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-3" parent="sYtfzVHAnJTOLgyBfKQ2-2" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q1.&lt;/b&gt; Should the history of previous branch managers be retained?&lt;br&gt;&lt;b&gt;Q2.&lt;/b&gt; How should 24/7 branches be represented?&lt;br&gt;&lt;b&gt;Q3.&lt;/b&gt; Should temporary Regional Director assignments be recorded as normal manager assignments?" vertex="1">
+          <mxGeometry height="130" width="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-4" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.2 — Training" vertex="1">
+          <mxGeometry height="80" width="330" x="370" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-5" parent="sYtfzVHAnJTOLgyBfKQ2-4" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q4.&lt;/b&gt; What is the minimum score required to pass a course?" vertex="1">
+          <mxGeometry height="50" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-6" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.3 — Fleet, Categories, and Pricing" vertex="1">
+          <mxGeometry height="120" width="330" x="370" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-7" parent="sYtfzVHAnJTOLgyBfKQ2-6" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q5.&lt;/b&gt; Does special model pricing completely replace category pricing?&lt;br&gt;&lt;b&gt;Q6.&lt;/b&gt; How should a vehicle&#39;s initial status be recorded?" vertex="1">
+          <mxGeometry height="90" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-8" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.4 — Vehicle Equipment" vertex="1">
+          <mxGeometry height="100" width="330" x="370" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-9" parent="sYtfzVHAnJTOLgyBfKQ2-8" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q7.&lt;/b&gt; Should the stored charge at rental time represent the unit price or the total charge for the quantity?" vertex="1">
+          <mxGeometry height="70" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-10" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.5 — GPS Tracking" vertex="1">
+          <mxGeometry height="100" width="330" x="730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-11" parent="sYtfzVHAnJTOLgyBfKQ2-10" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q8.&lt;/b&gt; Can a GPS device be moved between vehicles, and should installation history be retained?" vertex="1">
+          <mxGeometry height="70" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-12" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.7 — Customers" vertex="1">
+          <mxGeometry height="100" width="330" x="730" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-13" parent="sYtfzVHAnJTOLgyBfKQ2-12" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q9.&lt;/b&gt; Should previous blacklist decisions be retained?&lt;br&gt;&lt;b&gt;Q10.&lt;/b&gt; Can a customer be blacklisted more than once?" vertex="1">
+          <mxGeometry height="70" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-14" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.8 — Corporate Contracts" vertex="1">
+          <mxGeometry height="100" width="330" x="730" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-15" parent="sYtfzVHAnJTOLgyBfKQ2-14" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q11.&lt;/b&gt; Can discounts for the same corporate customer and vehicle category have overlapping periods?" vertex="1">
+          <mxGeometry height="70" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-16" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.10 — Loyalty Program" vertex="1">
+          <mxGeometry height="80" width="330" x="730" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-17" parent="sYtfzVHAnJTOLgyBfKQ2-16" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q12.&lt;/b&gt; Can one rental be associated with multiple point movements?" vertex="1">
+          <mxGeometry height="50" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-18" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.11 — Reservations" vertex="1">
+          <mxGeometry height="80" width="330" x="730" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-19" parent="sYtfzVHAnJTOLgyBfKQ2-18" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q13.&lt;/b&gt; Should the reservation channel (phone, branch, website) be stored?" vertex="1">
+          <mxGeometry height="50" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-20" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.12 — Rentals" vertex="1">
+          <mxGeometry height="130" width="330" x="1090" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-21" parent="sYtfzVHAnJTOLgyBfKQ2-20" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q14.&lt;/b&gt; Can additional drivers be added only from the corporate authorized-driver list, or can any customer provide additional drivers?&lt;br&gt;&lt;b&gt;Q15.&lt;/b&gt; How is the late fee amount calculated?" vertex="1">
+          <mxGeometry height="100" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-22" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="7.16 — Payments" vertex="1">
+          <mxGeometry height="140" width="330" x="1090" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-23" parent="sYtfzVHAnJTOLgyBfKQ2-22" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;Q16.&lt;/b&gt; How should monthly corporate invoices be represented?&lt;br&gt;&lt;b&gt;Q17.&lt;/b&gt; Can one monthly invoice cover multiple rentals?&lt;br&gt;&lt;b&gt;Q18.&lt;/b&gt; How should payments be allocated to corporate invoices?" vertex="1">
+          <mxGeometry height="110" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-24" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="2. Assumptions" vertex="1">
+          <mxGeometry height="240" width="330" x="1090" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-25" parent="sYtfzVHAnJTOLgyBfKQ2-24" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;b&gt;7.1:&lt;/b&gt; Store only the current branch manager and TakeoverDate.&lt;br&gt;&lt;b&gt;7.1:&lt;/b&gt; Use Is24Hours; OpeningTime and ClosingTime are NULL for 24/7 branches.&lt;br&gt;&lt;b&gt;7.4:&lt;/b&gt; ChargeAtRental stores the unit price at the time of rental.&lt;div&gt;&lt;strong&gt;7.12 &lt;/strong&gt;&amp;nbsp;An extension creates a new RENTAL record that references the previous rental through a 1:1 recursive foreign key (ParentRentalNo), forming an audit chain of extensions.&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;7.14 &lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Damage reports are identified by (RentalNo, ReportNo) as a weak entity, with photo links stored in a separate multivalued table (DAMAGE_PHOTO).&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-26" parent="1" style="swimlane;fontStyle=1;startSize=30;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="3. Contradictions" vertex="1">
+          <mxGeometry height="200" width="330" x="720" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="sYtfzVHAnJTOLgyBfKQ2-27" parent="sYtfzVHAnJTOLgyBfKQ2-26" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=6;" value="&lt;p&gt;&lt;strong&gt;Section 7.7 + Stakeholder Interview Notes&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Section 7.7 states that corporate authorized drivers are only known through their company. However, the stakeholder interview says that some corporate drivers can also be individual customers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Clarification needed:&lt;/strong&gt; Can the same person have both an Authorized Driver record and an Individual Customer record?&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="330" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
