@@ -1,2 +1,8 @@
-# Omar-Fathi-Dev-Database-Assignment-1
-Assignment repo for assignment/1-10 (Database Assignment 1)
+ 
+
+| | |
+|---|---|
+| **Name** | Omar Fathy |
+| **Group** | Group 3 |
+| **Diploma** | Simulation Academy — .NET Diploma (Cycle 1) |
+---
